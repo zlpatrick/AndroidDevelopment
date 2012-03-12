@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="myinfotitleText">个人信息</string>
+    <string name="acceptInvite">接 受</string>
+    <string name="rejectInvite">拒 绝</string>
+    
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="home">日程</string>
+	<string name="more">更多</string>
+	<string name="entertainment">直播</string>
+	<string name="discount">折扣</string>
+	<string name="friend">好友</string>
+	<string name="personal">个人</string>
+	<string name="addschedule">添加日程</string>
+	<string name="leftarrow">&lt;</string>
+	<string name="rightarrow">&gt;</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="importance">
+        <item >高</item>
+        <item >中</item>
+        <item >低</item>
+    </string-array>
+    <string-array name="repeat">
+        <item >不重复</item>
+        <item >每周</item>
+        <item >每月</item>
+        <item >每年</item>
+    </string-array>
+    <string-array name="remind">
+        <item >不提醒</item>
+        <item >10分钟前</item>
+        <item >30分钟前</item>
+        <item >1天前</item>
+    </string-array>
+    <string-array name="scheduleVisibility">
+        <item >仅自己可见</item>
+        <item >好友可见</item>
+        <item >所有人可见</item>
+    </string-array>
+    <string-array name="contentVisibility">
+        <item >仅自己可见</item>
+        <item >好友可见</item>
+        <item >所有人可见</item>
+    </string-array>
+    
+</resources>

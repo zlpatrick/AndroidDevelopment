@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/dayView" android:title="日视图"></item>
+    <item android:id="@+id/weekView" android:title="周视图"></item>
+    <item android:id="@+id/monthView" android:title="月视图"></item>
+    <item android:id="@+id/exit" android:title="退出程序"></item>
+    
+
+</menu>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:id="@+id/whole" android:scrollbars="vertical">
+    <TextView
+        android:id="@+id/inputTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+        android:text="@string/inputScheduleTitle"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+<View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+        android:text="@string/startTitle" />
+ 	<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="40dp">
+    <Button
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+	
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+        android:text="@string/endTitle" />
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="40dp">
+    <Button
+        android:id="@+id/endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+</LinearLayout>
+
+<CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="@string/isAllDay" />
+
+     <View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+        
+    <TextView
+        android:id="@+id/inputImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+        android:text="@string/importance"
+        />
+
+     <View android:layout_width="fill_parent"
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+        
+    <TextView
+        android:id="@+id/inputRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+         android:text="@string/repeat"
+        />
+
+    <View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+        
+    <TextView
+        android:id="@+id/inputRemind"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+         android:text="@string/remind"
+        />
+ 	<View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+        
+    <TextView
+        android:id="@+id/inputScheduleVisibility"
+        android:layout_width="wrap_content"
+       android:layout_height="30dp" android:gravity="center"
+        android:text="@string/scheduleVisibility"
+        />
+ 	<View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+         <TextView
+        android:id="@+id/inputContent"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" android:gravity="center"
+        android:text="@string/inputContent"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:inputType="textMultiLine">
+    </EditText>
+    <View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+    <TextView
+        android:id="@+id/inputContentVisibility"
+        android:layout_width="wrap_content"
+       android:layout_height="30dp" android:gravity="center"
+         android:text="@string/contentVisibility"
+        />
+ <View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+         <TextView
+        android:id="@+id/inviteFriend"
+        android:layout_width="wrap_content"
+       android:layout_height="30dp" android:gravity="center"
+         android:text="@string/inviteFriend"
+        />
+          <View android:layout_width="fill_parent" 
+        android:layout_height="2dp"  
+        android:background="#FF909090"/>  	
+         <Button
+        android:id="@+id/addScheduleButton"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content" android:gravity="center"
+       android:text="@string/addButton" android:layout_gravity="center"
+
+        />
+
+</LinearLayout>
+</ScrollView>

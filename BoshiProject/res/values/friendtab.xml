@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="friendTab">好友</string>
+    <string name="newsTab">动态</string>
+    <string name="commentTab">评论</string>
+    <string name="addFriendText">添 加 好 友</string>
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="importance">重要性</string>
+    <string name="repeat">重复性</string>
+    <string name="remind">提醒</string>
+    <string name="scheduleVisibility">日程可见性</string>
+    <string name="contentVisibility">内容可见性</string>
+    <string name="inputScheduleTitle">日程标题</string>
+    <string name="inputScheduleContent">日程内容</string>
+    <string name="startTitle">开始时间</string>
+    <string name="endTitle">结束时间</string>
+    <string name="isAllDay">全天日程</string>
+    <string name="inputContent">输入内容</string>
+    <string name="inviteFriend">邀请好友</string>
+    <string name="addButton">添 加 日 程</string>
+    
+</resources>
