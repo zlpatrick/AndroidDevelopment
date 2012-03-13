@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, ShowBottomActivty!</string>
     <string name="app_name">我的日程表</string>
     
     <string name="Mon">一</string>
